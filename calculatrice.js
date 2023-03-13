@@ -7,14 +7,18 @@ function clearScreen() {
 }
 
 function clearLast() {
-  var screen=document.getElementById('screen').value;
-  var taille=screen.length;
-  var clear=screen.substring(0,taille-1);
+  let screen=document.getElementById('screen').value;
+  let taille=screen.length;
+  let clear=screen.substring(0,taille-1);
   document.getElementById('screen').value = clear;
 }
 
 function calculate() {
-  var input = document.getElementById('screen').value;
-  var result = eval(input);
+  let input = document.getElementById('screen').value;
+  let result = eval(input);
   document.getElementById('screen').value = result;
+  let screen=document.getElementById('screen').value;
+  let float=screen.substring(0,8);
+  document.getElementById('screen').value = float;
+
 }
