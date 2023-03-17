@@ -17,8 +17,4 @@ function calculate() {
   let input = document.getElementById('screen').value;
   let result = eval(input);
   document.getElementById('screen').value = result;
-  let screen=document.getElementById('screen').value;
-  let float=screen.substring(0,8);
-  document.getElementById('screen').value = float;
-
 }
