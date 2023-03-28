@@ -65,4 +65,8 @@ html{
   button.operator:hover {
     background-color: #4E6E81;
   }
+
+  #Histo{
+    width: 340%;
+  }
   
