@@ -66,3 +66,4 @@ class BaseCalculator {
   }
 }
 let calc = new BaseCalculator();
+
